@@ -1,0 +1,17 @@
+.chessboard {
+  border: 1px solid #222222;
+  width: 640px;
+  margin: 5em auto;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  float: left;
+  font-size: 3em;
+  text-align: center;
+}
+
+.square.grey {
+  background: #cccccc;
+}

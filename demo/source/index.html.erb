@@ -1,0 +1,16 @@
+---
+title: Welcome to Middleman
+---
+
+<div class="chessboard">
+  <% 8.times do |row_count| %>
+    <div class="row">
+      <% 8.times do |column_count| %>
+        <div class="square <%= grey_or_white(row_count, column_count) %>">          
+          <%= draw_position(row_count, column_count) %>
+        </div>
+      <% end %>
+      <br clear="all"/>
+    </div>
+  <% end %>
+</div>
