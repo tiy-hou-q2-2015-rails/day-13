@@ -33,7 +33,7 @@ Create HTML specified in the following image. No need for bootstrap
 
 ## Assignment
 
-Create an "about-me" website for yourself, and get live on GitHub Pages.  Include the following:
+Create an "about-me" website for yourself. No need to deploy (yet).  Include the following:
 
 * Photo
 * Contact (Phone / Email)
